@@ -63,5 +63,8 @@ let g:fzf_action = {
   \ 'ctrl-i': 'split',
   \ 'ctrl-v': 'vsplit' }
 
+" Perform keyword search across files
+nnoremap <C-g> :Ag<Cr>
+
 " Might be useful, fzf but is .git aware & ignores .gitignore files in search.
 " nnoremap <C-p> :GFiles<Cr>
