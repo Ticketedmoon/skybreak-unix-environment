@@ -36,3 +36,19 @@ cut -d "," -f 2
     showtime
     """
 ]
+
+[example:  
+    """
+    ID, title, description
+    1, gardening show, flowers with Greg.
+    2, showtime, film creators.
+    """
+]
+cut -d "," -f 1,2 --output-delimiter='-'
+[result: 
+    """
+    ID-title
+    1-gardening show
+    2-showtime
+    """
+]
