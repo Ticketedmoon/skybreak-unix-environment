@@ -52,7 +52,8 @@ If you want to move WORD by WORD you can use the capitalized equivalents of the 
 `*` - move to next occurence of word in file.  
 `#` - move to previous occurence of word in file.  
 
-`:/{WORD` - search for {WORD} in file, press `n` to move down to each next hit, and `N` to move to previous hit  
+`:/{WORD}` - search forwards for {WORD} in file, press `n` to move down to each next hit, and `N` to move to previous hit  
+`:?{WORD}` - search backwards for {WORD} in file, press `n` to move down to each next hit, and `N` to move to previous hit  
 `:%s/{A}/{B}/g` - replace all cases of `A` with `B` in file.  
 `:5,12s/{A}/{B}/g` - replace all cases of `A` with `B` betwee lines 5-12.  
 `:5,12s/{A}/{B}/gc` - replace all cases of `A` with `B` betwee lines 5-12 but ask for confirmation.  
