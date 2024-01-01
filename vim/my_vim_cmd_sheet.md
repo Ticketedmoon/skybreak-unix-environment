@@ -1,9 +1,16 @@
 `.` - repeat previous command  
 `v` - enter visual mode  
 
+`:w` - save  
+`:q` - save and quit  
+`:q!` - quit without saving  
+
+`u` - undo  
+`ctrl + r` - repo  
+
 `gg` - move to top of file  
 `G` - move to bottom of file  
-`50G` - move to line 50
+`50G` - move to line 50  
 
 `shift-i` - move to start of line and changes to insert mode  
 `shift-a` - move to end of line  and changes to insert mode  
