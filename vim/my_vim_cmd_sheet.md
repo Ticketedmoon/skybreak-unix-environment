@@ -1,1 +1,25 @@
+`gg` - move to top of file  
+`shift-g` - move to bottom of file  
 
+`shift-i` - move to start of line  
+`shift-a` - move to end of line  
+
+`k` - up  
+`j` - down  
+`l` - right  
+`h` - left  
+
+`w` - move to next word  
+`b` - move to previous word  
+
+`:/{WORD` - search for {WORD} in file, press `n` to move down each hit.  
+`:%s/{A}/{B}/g` - replace all cases of `A` with `B` in file.  
+`:5,12s/{A}/{B}/g` - replace all cases of `A` with `B` betwee lines 5-12.  
+`:5,12s/{A}/{B}/gc` - replace all cases of `A` with `B` betwee lines 5-12 but ask for confirmation.  
+
+`{` and `}` for moving up and down blocks of text.  
+
+`dw` - delete word up to next symbol.  
+`dW` - delete word up to next word.  
+`dt{A}` - delete next characeters to {A}, where A is a character.  
+`dT{A}` - delete previous characters to {A}, where A is a character.  
