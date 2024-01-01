@@ -6,7 +6,7 @@
 `:q!` - quit without saving  
 
 `u` - undo  
-`ctrl + r` - repo  
+`ctrl + r` - redo  
 
 `gg` - move to top of file  
 `G` - move to bottom of file  
