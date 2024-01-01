@@ -39,7 +39,7 @@
 `de` - delete word up to end of word.  
 `dE` - delete word up to end of word block.  
 `dt{A}` - delete next characeters to {A}, where A is a character.  
-`dT{A}` - delete previous characters to {A}, where A is a character. 
+`dT{A}` - delete previous characters to {A}, where A is a character.  
 
 `30i{word}` + `Esc` - repeat word 30 times.  
 
