@@ -35,6 +35,7 @@
 `e` - move to end of current word  
 `ge` - move to end of previous word  
 `b` - move to start of previous word  
+`ctrl+o` - move to previous position  
 
 **Note:** All these commands can be prefixed with a number to repeat X times.  
 
