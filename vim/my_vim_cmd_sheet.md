@@ -3,6 +3,9 @@
 #### The difference between `word` and `WORD`:
 ![image](https://github.com/Ticketedmoon/skybreak-unix-environment/assets/21260839/e8d62603-cc3d-4b43-9d59-1d854b9e8531)
 
+The below is compacted far better here:  
+https://vim.rtorr.com/  
+
 ## Commands
 
 `.` - repeat previous command  
