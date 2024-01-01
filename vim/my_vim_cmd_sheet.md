@@ -15,8 +15,11 @@
 
 **Note:** All these commands can be prefixed with a number to repeat X times.  
 
-`0` - move to start of line  (similar to `shift-i` but stays in normal mode)  
-`$` - move to end of line (similar to `shift-a` but stays in normal mode)  
+`0` - move to start of line  (similar to `shift-i` but stays in normal mode).  
+`$` - move to end of line (similar to `shift-a` but stays in normal mode).  
+
+`*` - move to next occurence of word in file.  
+`#` - move to previous occurence of word in file.  
 
 `:/{WORD` - search for {WORD} in file, press `n` to move down each hit.  
 `:%s/{A}/{B}/g` - replace all cases of `A` with `B` in file.  
