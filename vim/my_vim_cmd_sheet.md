@@ -20,6 +20,7 @@
 
 `0` - move to start of line  (similar to `shift-i` but stays in normal mode).  
 `$` - move to end of line (similar to `shift-a` but stays in normal mode).  
+`^` - mode to first non-whitespace word in line.  
 
 `*` - move to next occurence of word in file.  
 `#` - move to previous occurence of word in file.  
