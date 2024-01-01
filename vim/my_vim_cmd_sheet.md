@@ -1,4 +1,5 @@
 `.` - repeat previous command  
+`v` - enter visual mode  
 
 `gg` - move to top of file  
 `G` - move to bottom of file  
