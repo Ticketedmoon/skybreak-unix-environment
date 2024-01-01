@@ -34,8 +34,10 @@
 `r{A}` - replace character under cursor with A.  
 `R` - enter insert mode.  
 
-`dw` - delete word up to next symbol.  
-`dW` - delete word up to next word.  
+`dw` - delete word up to next word.  
+`dW` - delete word up to next word block.  
+`de` - delete word up to end of word.  
+`dE` - delete word up to end of word block.  
 `dt{A}` - delete next characeters to {A}, where A is a character.  
 `dT{A}` - delete previous characters to {A}, where A is a character. 
 
