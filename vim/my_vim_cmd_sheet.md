@@ -48,7 +48,7 @@
 `x` - delete character under cursor and move cursor to next character.  
 `X` - delete character under cursor and move cursor to previous character.  
 `r{A}` - replace character under cursor with A.  
-`R` - enter insert mode.  
+`a{A}` - append text after cursor   
 
 `dw` - delete word up to next word.  
 `dW` - delete word up to next word block.  
