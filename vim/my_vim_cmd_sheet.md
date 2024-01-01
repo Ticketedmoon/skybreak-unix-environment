@@ -13,14 +13,18 @@
 `e` - move to end of word  
 `b` - move to start of previous word  
 
+**Note: ** All these commands can be prefixed with a number to repeat X times.  
+
 `:/{WORD` - search for {WORD} in file, press `n` to move down each hit.  
 `:%s/{A}/{B}/g` - replace all cases of `A` with `B` in file.  
 `:5,12s/{A}/{B}/g` - replace all cases of `A` with `B` betwee lines 5-12.  
 `:5,12s/{A}/{B}/gc` - replace all cases of `A` with `B` betwee lines 5-12 but ask for confirmation.  
+
+`30i{word}` + `Esc` - repeat word 30 times.
 
 `{` and `}` for moving up and down blocks of text.  
 
 `dw` - delete word up to next symbol.  
 `dW` - delete word up to next word.  
 `dt{A}` - delete next characeters to {A}, where A is a character.  
-`dT{A}` - delete previous characters to {A}, where A is a character.  
+`dT{A}` - delete previous characters to {A}, where A is a character. 
