@@ -46,7 +46,8 @@ If you want to move WORD by WORD you can use the capitalized equivalents of the 
 
 `0` - move to start of line  (similar to `shift-i` but stays in normal mode).  
 `$` - move to end of line (similar to `shift-a` but stays in normal mode).  
-`^` - mode to first non-whitespace word in line.  
+`^` - move to first non-whitespace word in line.  
+`g_` - move to last non-whitespace word in line.  
 
 `*` - move to next occurence of word in file.  
 `#` - move to previous occurence of word in file.  
