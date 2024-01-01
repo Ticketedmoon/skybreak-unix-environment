@@ -21,7 +21,8 @@
 `h` - left  
 
 `w` - move to next word  
-`e` - move to end of word  
+`e` - move to end of current word  
+`ge` - move to end of previous word  
 `b` - move to start of previous word  
 
 **Note:** All these commands can be prefixed with a number to repeat X times.  
