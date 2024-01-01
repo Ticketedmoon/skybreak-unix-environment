@@ -10,7 +10,7 @@
 `h` - left  
 
 `w` - move to next word  
-`e` - move to end of word
+`e` - move to end of word  
 `b` - move to start of previous word  
 
 `:/{WORD` - search for {WORD} in file, press `n` to move down each hit.  
