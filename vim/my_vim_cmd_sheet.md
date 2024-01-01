@@ -43,3 +43,5 @@
 `3F{A}` - move to third previous occurence of A.  
 
 `%` - move between enclosing parenthese lists (`(`, `[`, `{`, `)`, `]`, `}`).  
+`o` - create new line under cursor.  
+`O` - create new line above cursor.  
