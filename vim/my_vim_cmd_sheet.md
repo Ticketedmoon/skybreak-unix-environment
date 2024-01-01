@@ -58,6 +58,8 @@ If you want to move WORD by WORD you can use the capitalized equivalents of the 
 `:5,12s/{A}/{B}/gc` - replace all cases of `A` with `B` betwee lines 5-12 but ask for confirmation.  
 
 `{` and `}` for moving up and down blocks of text.  
+`CTRL-D` - lets you move down half a page by scrolling the page  
+`CTRL-U` - lets you move up half a page also by scrolling  
 
 `x` - delete character under cursor and move cursor to next character.  
 `X` - delete character under cursor and move cursor to previous character.  
