@@ -1,5 +1,9 @@
 `.` - repeat previous command  
+`i` - enter insert mode  
+`I` - enter insert mode with cursor at first non-whitespace position in line  
 `v` - enter visual mode  
+`shift-v` - enter visual line mode  
+`shift-r` - enter replace mode  
 
 `:w` - save  
 `:q` - save and quit  
