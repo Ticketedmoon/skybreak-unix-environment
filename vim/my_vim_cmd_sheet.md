@@ -1,3 +1,10 @@
+## Preamble
+
+#### The difference between `word` and `WORD`:
+![image](https://github.com/Ticketedmoon/skybreak-unix-environment/assets/21260839/e8d62603-cc3d-4b43-9d59-1d854b9e8531)
+
+## Commands
+
 `.` - repeat previous command  
 `i` - enter insert mode  
 `I` - enter insert mode with cursor at first non-whitespace position in line  
@@ -51,9 +58,9 @@
 `a{A}` - append text after cursor   
 
 `dw` - delete word up to next word.  
-`dW` - delete word up to next word block.  
+`dW` - delete word up to next WORD.  
 `de` - delete word up to end of word.  
-`dE` - delete word up to end of word block.  
+`dE` - delete word up to end of WORD.  
 `dt{A}` - delete next characeters to {A}, where A is a character.  
 `dT{A}` - delete previous characters to {A}, where A is a character.  
 
