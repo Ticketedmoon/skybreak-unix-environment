@@ -29,6 +29,9 @@
 
 `{` and `}` for moving up and down blocks of text.  
 
+`x` - delete character under word and move cursor to next character.  
+`X` - delete character under word and move cursor to previous character.  
+
 `dw` - delete word up to next symbol.  
 `dW` - delete word up to next word.  
 `dt{A}` - delete next characeters to {A}, where A is a character.  
