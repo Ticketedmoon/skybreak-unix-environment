@@ -1,3 +1,5 @@
+`.` - repeat previous command  
+
 `gg` - move to top of file  
 `G` - move to bottom of file  
 `50G` - move to line 50
