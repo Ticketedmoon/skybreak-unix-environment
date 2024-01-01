@@ -13,7 +13,7 @@
 `e` - move to end of word  
 `b` - move to start of previous word  
 
-**Note: ** All these commands can be prefixed with a number to repeat X times.  
+**Note:** All these commands can be prefixed with a number to repeat X times.  
 
 `:/{WORD` - search for {WORD} in file, press `n` to move down each hit.  
 `:%s/{A}/{B}/g` - replace all cases of `A` with `B` in file.  
