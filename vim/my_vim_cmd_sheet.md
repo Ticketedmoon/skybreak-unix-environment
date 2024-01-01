@@ -1,8 +1,8 @@
 `gg` - move to top of file  
 `shift-g` - move to bottom of file  
 
-`shift-i` - move to start of line  
-`shift-a` - move to end of line  
+`shift-i` - move to start of line and changes to insert mode  
+`shift-a` - move to end of line  and changes to insert mode  
 
 `k` - up  
 `j` - down  
@@ -14,6 +14,9 @@
 `b` - move to start of previous word  
 
 **Note:** All these commands can be prefixed with a number to repeat X times.  
+
+`0` - move to start of line  (similar to `shift-i` but stays in normal mode)  
+`$` - move to end of line (similar to `shift-a` but stays in normal mode)  
 
 `:/{WORD` - search for {WORD} in file, press `n` to move down each hit.  
 `:%s/{A}/{B}/g` - replace all cases of `A` with `B` in file.  
