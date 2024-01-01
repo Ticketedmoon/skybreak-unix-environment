@@ -37,6 +37,8 @@
 `b` - move to start of previous word  
 `ctrl+o` - move to previous position  
 
+**Note:** WORDs are particularly helpful to us programmers because code often has a lot of them.  
+          If you want to move WORD by WORD you can use the capitalized equivalents of the motions described earlier (W, B, E, gE).  
 **Note:** All these commands can be prefixed with a number to repeat X times.  
 
 `0` - move to start of line  (similar to `shift-i` but stays in normal mode).  
