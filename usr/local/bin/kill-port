@@ -1,0 +1,2 @@
+kill -9 $(lsof -t -i:"$1" -sTCP:LISTEN)
+echo "Process on port $1 has been killed"
