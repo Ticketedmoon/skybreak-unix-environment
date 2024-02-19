@@ -113,8 +113,8 @@ bindsym $mod+a focus parent
 set $ws1 "[1] Browser "
 set $ws2 "[2] Terminal "
 set $ws3 "[3] IDE "
-set $ws4 "[4] Postman"
-set $ws5 "[5] DB Client ▤"
+set $ws4 "[4] Design ▤"
+set $ws5 "[5] Test Space 🎮"
 set $ws6 "[6] Any "
 set $ws7 "[7] Any "
 set $ws8 "[8] Any "
@@ -156,7 +156,19 @@ bindsym $mod+Shift+p exec --no-startup-id maim --select "/home/$USER/Pictures/sc
 
 # Enable floating for certain windows
 for_window [class="Application"] floating enable
+for_window [class="vanquish"] floating enable focus
+for_window [class="primitive-wars"] floating enable focus
+for_window [class="merciless-mario"] floating enable focus
+for_window [class="crucible"] floating enable focus
+for_window [class="line-segment-light-visibility-system"] floating enable focus
 
+assign [class="Google-chrome"] $ws1
+assign [class="jetbrains-clion"] $ws3
+assign [class="tiled"] $ws4
+
+assign [class="vanquish"] $ws5
+assign [class="primitive-wars"] $ws5
+assign [class="crucible"] $ws5
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -200,7 +212,7 @@ bar {
 	position top
 	output primary
 	tray_output none
-	font pango:Source Code Pro Bold 10
+	font pango:Source Code Pro Bold 9
 	separator_symbol '     '
 }
 
