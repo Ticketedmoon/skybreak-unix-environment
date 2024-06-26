@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Script Summary: 
+# This script's purpose is to determine the commits that are merged into a branch (typically a main/master branch) 
+# but have yet to be deployed. 
+# This is determined by checking the commits since the latest tag
+
 branch=`git branch --show-current`
 echo "branch: [${branch}]"
 
