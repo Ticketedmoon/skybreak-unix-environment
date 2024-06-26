@@ -1,0 +1,13 @@
+#!/bin/bash
+
+branch=`git branch --show-current`
+echo "branch: [${branch}]"
+
+latestTag=`git describe --tags --abbrev=0`
+if [ -z "${latestTag}" ];
+then
+	echo "No tags found for repository/branch"
+else
+	echo "Latest tag: [${latestTag}]"
+	git log ${latestTag}..${branch} --reverse | grep '(#.*)'
+fi
