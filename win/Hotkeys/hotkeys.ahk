@@ -10,6 +10,7 @@
     WinClose "A"
 }
 
+; TODO: Consider replacing the below methods in favour of the in-built win commands (WIN + <ARROW_UP/DOWN>)
 global id := "A"
 
 ; Maximize Window
@@ -39,6 +40,41 @@ global id := "A"
 }
 return
 
+; File Explorer Management (Open file explorer at specific locations)
+
+; Open Pictures Directory and focus
+<^>!P::
+{
+    Run("C:\Users\shanecreedon\Pictures")
+    ;Sleep 1000
+    if WinExist("ahk_exe explorer.exe")
+    {
+        WinActivate
+    }
+}
+
+<^>!D::
+{
+    Run("C:\Users\shanecreedon\OneDrive - Microsoft\Documents")
+    ;Sleep 1000
+    if WinExist("ahk_exe explorer.exe")
+    {
+        WinActivate
+    }
+}
+
+<^>!+D::
+{
+    Run("C:\Users\shanecreedon\Documents")
+    ;Sleep 1000
+    if WinExist("ahk_exe explorer.exe")
+    {
+        WinActivate
+    }
+}
+
+; Shell Management (Open shells at specific locations)
+
 ; Browser Management
 ^!+E::
 {
@@ -59,7 +95,7 @@ return
     (
         "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
         " " 
-        "https://www.youtube.com/watch?v=yA41iunMG6A"
+        "https://www.youtube.com/watch?v=54Fndxv0llE&start=0"
     )
 }
 
