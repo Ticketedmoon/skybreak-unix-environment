@@ -63,7 +63,7 @@ return
     }
 }
 
-<^>!+D::
+#<^>!D::
 {
     Run("C:\Users\shanecreedon\Documents")
     ;Sleep 1000
