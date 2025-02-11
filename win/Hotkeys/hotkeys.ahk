@@ -3,6 +3,9 @@
 ; AutoHotKey Specific
 <^>!R::Reload
 
+; General - FIXME: Remove 365 copilot opening same time
+^!+#Del::FileRecycleEmpty
+
 ; Window Management
 
 ; Close Window
@@ -53,6 +56,16 @@ return
     }
 }
 
+<^>!+P::
+{
+    Run("pwsh.exe -noexit -command `"Set-Location -Path 'C:\Users\shanecreedon\Pictures'`" ")
+    ;Sleep 1000
+    if WinExist("ahk_exe pwsh.exe")
+    {
+        WinActivate
+    }
+}
+
 <^>!D::
 {
     Run("C:\Users\shanecreedon\OneDrive - Microsoft\Documents")
@@ -63,11 +76,31 @@ return
     }
 }
 
+<^>!+D::
+{
+    Run("pwsh.exe -noexit -command `"Set-Location -Path 'C:\Users\shanecreedon\OneDrive - Microsoft\Documents'`" ")
+    ;Sleep 1000
+    if WinExist("ahk_exe pwsh.exe")
+    {
+        WinActivate
+    }
+}
+
 #<^>!D::
 {
     Run("C:\Users\shanecreedon\Documents")
     ;Sleep 1000
     if WinExist("ahk_exe explorer.exe")
+    {
+        WinActivate
+    }
+}
+
+#<^>!+D::
+{
+    Run("pwsh.exe -noexit -command `"Set-Location -Path 'C:\Users\shanecreedon\Documents'`" ")
+    ;Sleep 1000
+    if WinExist("ahk_exe pwsh.exe")
     {
         WinActivate
     }
